@@ -23,7 +23,9 @@ btc = [res["btc"] for res in result]
 eureth = [res["eureth"] for res in result]
 eurbtc = [res["eurbtc"] for res in result]
 
-deposit = 1.50 + 10.20 + 165.12
+deposit = 1/4.6884 + 1/4.7399 + 1/4.6652
+deposit *= 8
+deposit += 1.50 + 10.20 + 165.12
 
 
 
