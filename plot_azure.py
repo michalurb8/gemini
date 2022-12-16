@@ -35,7 +35,7 @@ step = 10
 plt.figure(figsize=(15,8), dpi=100)
 ax = plt.gca()
 plt.margins(x=0)
-plt.stackplot(dates, eurbtc, eureth, eur, labels = ['EUR/BTC', 'EUR/ETH', 'EUR'],colors=[(0.92,0.5,0.25), (0.32,0.48,0.80), (0.3,0.3,0.3)])
+plt.stackplot(dates, eurbtc, eureth, eur, labels = ['EUR/BTC', 'EUR/ETH', 'EUR'],colors=[(0.94,0.55,0.05), (0.22, 0.21, 0.5), (0.5,0.5,0.5)], edgecolor='black')
 
 xticksep = 4
 plt.xticks([date.today() - timedelta(days=x) for x in range(0, (datetime.today() - dates[0]).days, xticksep)])
