@@ -47,7 +47,7 @@ plt.axhline(y=deposit, color=(0.9,0,0,0.15), linewidth=10)
 
 plt.grid(axis='y',alpha=0.3,color='black')
 plt.yticks(range(step, yrange+step, step), size=12)
-ax.xaxis.set_major_locator(mdates.DayLocator(bymonthday=[5,10,15,20,25]))
+ax.xaxis.set_major_locator(mdates.DayLocator(bymonthday=[6,12,18,24]))
 ax.xaxis.set_major_formatter(mdates.DateFormatter('%d.%m.%Y'))
 ax.tick_params(axis='x', which='major', width = 1, length = 3, labelsize = 10, colors='black', labelrotation= 90)
 
