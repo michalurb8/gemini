@@ -27,9 +27,7 @@ deposit = 1/4.6884 + 1/4.7399 + 1/4.6652
 deposit *= 8
 deposit += 1.50 + 10.20 + 165.12
 
-
-
-yrange = int(max(max(eurbtc) + max(eureth) + max(eur), deposit))
+yrange = int(1.05 * max(max([eur[i]+eureth[i]+eurbtc[i] for i, _ in enumerate(eur)]), deposit))
 step = 10
 
 plt.figure(figsize=(15,8), dpi=100)
@@ -42,7 +40,7 @@ plt.xticks([date.today() - timedelta(days=x) for x in range(0, (datetime.today()
 for index, day in enumerate(dates):
     plt.vlines(day, 0, (eureth[index] + eurbtc[index] + eur[index]), color=(0,0,0,0.1), linewidth=1)
     plt.scatter(day, (eureth[index] + eurbtc[index] + eur[index]), c='black', s=8)
-plt.scatter(date(2022,9,15), 11.6, c='red', s=24)
+plt.scatter(date(2022,9,15), 11.6, c='red', s=30)
 plt.axhline(y=deposit, color=(0.9,0,0,0.15), linewidth=10)
 
 plt.grid(axis='y',alpha=0.3,color='black')
