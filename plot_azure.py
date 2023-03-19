@@ -23,9 +23,10 @@ btc = [res["btc"] for res in result]
 eureth = [res["eureth"] for res in result]
 eurbtc = [res["eurbtc"] for res in result]
 
-deposit = 1/4.6884 + 1/4.7399 + 1/4.6652
-deposit *= 8
-deposit += 1.50 + 10.20 + 165.12
+deposit = 0
+deposit += (7.23 + 8) / 4.65 # 17.11.2021 pierwszy
+deposit += (50.0 + 8) / 4.70 # 31.07.2022 z Wojtkiem
+deposit += (808. + 8) / 4.70 # 28.11.2022 glowny
 
 yrange = int(1.05 * max(max([eur[i]+eureth[i]+eurbtc[i] for i, _ in enumerate(eur)]), deposit))
 step = 10
@@ -38,14 +39,14 @@ plt.stackplot(dates, eurbtc, eureth, eur, labels = ['EUR/BTC', 'EUR/ETH', 'EUR']
 xticksep = 4
 plt.xticks([date.today() - timedelta(days=x) for x in range(0, (datetime.today() - dates[0]).days, xticksep)])
 for index, day in enumerate(dates):
-    plt.vlines(day, 0, (eureth[index] + eurbtc[index] + eur[index]), color=(0,0,0,0.1), linewidth=1)
+    plt.vlines(day, 0, (eureth[index] + eurbtc[index] + eur[index]), color=(0,0,0,0.05), linewidth=1)
     plt.scatter(day, (eureth[index] + eurbtc[index] + eur[index]), c='black', s=8)
 plt.scatter(date(2022,9,15), 11.6, c='red', s=30)
 plt.axhline(y=deposit, color=(0.9,0,0,0.15), linewidth=10)
 
 plt.grid(axis='y',alpha=0.3,color='black')
 plt.yticks(range(step, yrange+step, step), size=12)
-ax.xaxis.set_major_locator(mdates.DayLocator(bymonthday=[6,12,18,24]))
+ax.xaxis.set_major_locator(mdates.DayLocator(bymonthday=[10, 20]))
 ax.xaxis.set_major_formatter(mdates.DateFormatter('%d.%m.%Y'))
 ax.tick_params(axis='x', which='major', width = 1, length = 3, labelsize = 10, colors='black', labelrotation= 90)
 
