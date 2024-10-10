@@ -12,7 +12,7 @@ if not tableServiceClient.exists(tableName):
     exit()
 
 entity = get_balance()
-entity["PartitionKey"] = str(date.today().year)
-entity["RowKey"] = str(date.today().strftime("%Y-%m-%d"))
+entity["PartitionKey"] = str( date.today().year*100 + date.today().month)
+entity["RowKey"] = str( date.today().year*10000 + date.today().month*100 + date.today().day)
 
 tableServiceClient.insert_or_replace_entity(tableName, entity, timeout=None)

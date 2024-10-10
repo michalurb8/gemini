@@ -16,12 +16,12 @@ if not tableServiceClient.exists(tableName):
 
 result = tableServiceClient.query_entities(tableName)
 
-dates = [datetime.strptime(res["RowKey"], '%Y-%m-%d') for res in result]
-eur = [res["eur"] for res in result]
-eth = [res["eth"] for res in result]
-btc = [res["btc"] for res in result]
-eureth = [res["eureth"] for res in result]
-eurbtc = [res["eurbtc"] for res in result]
+dates = [datetime.strptime(res["RowKey"], '%Y%m%d') for res in result]
+eur = [res["EUR"] for res in result]
+eth = [res["ETH"] for res in result]
+btc = [res["BTC"] for res in result]
+eureth = [res["EURETH"] for res in result]
+eurbtc = [res["EURBTC"] for res in result]
 
 deposit = 0
 deposit += (7.23 + 8) / 4.65 # 17.11.2021 pierwszy

@@ -37,9 +37,14 @@ def get_balance():
         values[res['currency']] = (amount, notional)
 
     return {
-        "eur": values['EUR'][1],
-        "eureth": values['ETH'][1],
-        "eurbtc": values['BTC'][1],
-        "eth": values['ETH'][0],
-        "btc": values['BTC'][0]
+        "EUR": values['EUR'][1],
+        "EURETH": values['ETH'][1],
+        "EURBTC": values['BTC'][1],
+        "ETH": values['ETH'][0],
+        "BTC": values['BTC'][0]
     }
+
+if __name__ == "__main__":
+    result = get_balance()
+    print(result)
+    _ = input()
