@@ -1,3 +1,4 @@
-python balances_Import.py
-python prices_Import.py
+python blockchainBalance_Import.py
+python geminiBalance_Import.py
+python price_Import.py
 python plot_azure.py

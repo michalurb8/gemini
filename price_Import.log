@@ -1,0 +1,69 @@
+2025-10-18 01:37:46,298 - INFO - ----------------- Script started -----------------
+2025-10-18 01:37:46,364 - INFO - got latest date: 2025-10-13
+2025-10-18 01:37:46,364 - INFO - got both dates: (datetime.date(2025, 10, 14), datetime.date(2025, 10, 18))
+2025-10-18 01:37:46,364 - INFO - got current_date: 2025-10-14
+2025-10-18 01:37:46,364 - INFO - trying to upsert for 2025-10-14
+2025-10-18 01:37:46,364 - INFO - trying to get prices for None
+2025-10-18 01:37:46,596 - INFO - BITCOIN avg PLN for 2025-10-18: 389636.65
+2025-10-18 01:37:46,596 - INFO - trying to get prices for None
+2025-10-18 01:37:46,811 - INFO - ETHEREUM avg PLN for 2025-10-18: 14041.28
+2025-10-18 01:37:46,824 - INFO - Successfully upserted prices for 2025-10-14
+2025-10-18 01:37:46,824 - INFO - got current_date: 2025-10-15
+2025-10-18 01:37:46,824 - INFO - trying to upsert for 2025-10-15
+2025-10-18 01:37:46,824 - INFO - trying to get prices for None
+2025-10-18 01:37:46,898 - INFO - BITCOIN avg PLN for 2025-10-18: 389636.65
+2025-10-18 01:37:46,898 - INFO - trying to get prices for None
+2025-10-18 01:37:46,981 - INFO - ETHEREUM avg PLN for 2025-10-18: 14041.28
+2025-10-18 01:37:46,991 - INFO - Successfully upserted prices for 2025-10-15
+2025-10-18 01:37:46,991 - INFO - got current_date: 2025-10-16
+2025-10-18 01:37:46,991 - INFO - trying to upsert for 2025-10-16
+2025-10-18 01:37:46,991 - INFO - trying to get prices for None
+2025-10-18 01:37:47,089 - INFO - BITCOIN avg PLN for 2025-10-18: 389636.65
+2025-10-18 01:37:47,089 - INFO - trying to get prices for None
+2025-10-18 01:37:47,165 - WARNING - Attempt 1 for ethereum on 2025-10-18 failed: Rate limit hit (429). Retrying in 5.0s...
+2025-10-18 01:37:52,266 - WARNING - Attempt 2 for ethereum on 2025-10-18 failed: Rate limit hit (429). Retrying in 7.5s...
+2025-10-18 01:37:59,854 - WARNING - Attempt 3 for ethereum on 2025-10-18 failed: Rate limit hit (429). Retrying in 11.2s...
+2025-10-18 01:38:11,190 - WARNING - Attempt 4 for ethereum on 2025-10-18 failed: Rate limit hit (429). Retrying in 16.9s...
+2025-10-18 01:40:01,056 - INFO - ----------------- Script started -----------------
+2025-10-18 01:40:01,159 - INFO - got latest date: 2025-10-15
+2025-10-18 01:40:01,159 - INFO - got both dates: (datetime.date(2025, 10, 16), datetime.date(2025, 10, 18))
+2025-10-18 01:40:01,159 - INFO - got current_date: 2025-10-16
+2025-10-18 01:40:01,159 - INFO - trying to upsert for 2025-10-16
+2025-10-18 01:40:01,159 - INFO - trying to get prices for 2025-10-16
+2025-10-18 01:40:01,385 - INFO - BITCOIN avg PLN for 2025-10-16: 402563.34
+2025-10-18 01:40:01,385 - INFO - trying to get prices for 2025-10-16
+2025-10-18 01:40:01,607 - INFO - ETHEREUM avg PLN for 2025-10-16: 14524.31
+2025-10-18 01:40:01,618 - INFO - Successfully upserted prices for 2025-10-16
+2025-10-18 01:40:01,618 - INFO - got current_date: 2025-10-17
+2025-10-18 01:40:01,618 - INFO - trying to upsert for 2025-10-17
+2025-10-18 01:40:01,618 - INFO - trying to get prices for 2025-10-17
+2025-10-18 01:40:01,864 - INFO - BITCOIN avg PLN for 2025-10-17: 388602.32
+2025-10-18 01:40:01,864 - INFO - trying to get prices for 2025-10-17
+2025-10-18 01:40:02,130 - INFO - ETHEREUM avg PLN for 2025-10-17: 13925.82
+2025-10-18 01:40:02,140 - INFO - Successfully upserted prices for 2025-10-17
+2025-10-18 01:40:02,140 - INFO - got current_date: 2025-10-18
+2025-10-18 01:40:02,140 - INFO - trying to upsert for 2025-10-18
+2025-10-18 01:40:02,140 - INFO - trying to get prices for 2025-10-18
+2025-10-18 01:40:02,218 - INFO - BITCOIN avg PLN for 2025-10-18: 389636.65
+2025-10-18 01:40:02,218 - INFO - trying to get prices for 2025-10-18
+2025-10-18 01:40:02,310 - WARNING - Attempt 1 for ethereum on 2025-10-18 failed: Rate limit hit (429). Retrying in 5.0s...
+2025-10-18 01:40:07,398 - WARNING - Attempt 2 for ethereum on 2025-10-18 failed: Rate limit hit (429). Retrying in 7.5s...
+2025-10-18 01:40:14,974 - WARNING - Attempt 3 for ethereum on 2025-10-18 failed: Rate limit hit (429). Retrying in 11.2s...
+2025-10-18 01:40:26,330 - WARNING - Attempt 4 for ethereum on 2025-10-18 failed: Rate limit hit (429). Retrying in 16.9s...
+2025-10-18 01:45:47,098 - INFO - ----------------- Script started -----------------
+2025-10-18 01:45:47,164 - INFO - got latest date: 2025-10-17
+2025-10-18 01:45:47,164 - INFO - got both dates: (datetime.date(2025, 10, 18), datetime.date(2025, 10, 18))
+2025-10-18 01:45:47,164 - INFO - got current_date: 2025-10-18
+2025-10-18 01:45:47,164 - INFO - trying to upsert for 2025-10-18
+2025-10-18 01:45:47,164 - INFO - trying to get prices for 2025-10-18
+2025-10-18 01:45:47,420 - INFO - BITCOIN avg PLN for 2025-10-18: 389577.10
+2025-10-18 01:45:47,420 - INFO - trying to get prices for 2025-10-18
+2025-10-18 01:45:47,643 - INFO - ETHEREUM avg PLN for 2025-10-18: 14038.64
+2025-10-18 01:45:47,653 - INFO - Successfully upserted prices for 2025-10-18
+2025-10-18 01:47:20,638 - INFO - ----------------- Script started -----------------
+2025-10-18 01:47:20,713 - INFO - trying to upsert for 2024-09-01 00:00:00
+2025-10-18 01:47:20,713 - INFO - trying to get prices for 2024-09-01 00:00:00
+2025-10-18 01:47:20,957 - WARNING - Attempt 1 for bitcoin on 2024-09-01 00:00:00 failed: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=pln&from=1725141600&to=1725227999. Retrying in 5.0s...
+2025-10-18 01:47:26,196 - WARNING - Attempt 2 for bitcoin on 2024-09-01 00:00:00 failed: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=pln&from=1725141600&to=1725227999. Retrying in 7.5s...
+2025-10-18 01:47:33,916 - WARNING - Attempt 3 for bitcoin on 2024-09-01 00:00:00 failed: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=pln&from=1725141600&to=1725227999. Retrying in 11.2s...
+2025-10-18 01:47:45,370 - WARNING - Attempt 4 for bitcoin on 2024-09-01 00:00:00 failed: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=pln&from=1725141600&to=1725227999. Retrying in 16.9s...

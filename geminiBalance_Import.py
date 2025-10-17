@@ -1,6 +1,6 @@
 from azure.cosmosdb.table import TableService
 from datetime import date
-from backup.gemini_today_to_json import get_balance
+from gemini_today_to_json import get_balance
 from keys import ConnectionString
 
 tableName = "balances"
